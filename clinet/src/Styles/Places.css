@@ -1,0 +1,321 @@
+/* To flex the cards with filters */
+.flexthem{
+    display: flex;
+    flex-direction: row;
+}
+
+/* CSS for the title of the filters box */
+.FilterTitle{
+    padding-left: 55px;
+    padding-top: 10px;
+    font-weight: bold;
+    
+}
+
+/* CSS for Filters (box) */
+.Filters{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin-right: 60px;
+    margin-top: 60px;
+    gap: 15px;
+    align-items:stretch;
+    background-color: #d8e3e7;
+    border: 10px solid #51c4d3;
+    max-width:200px;
+    min-width: 200px;
+    max-height: 420px;
+    min-height: 300px;
+}
+
+/* CSS for the first checkbox */
+.Checkbox1{
+    background-color: seagreen;
+    margin-left: 99px;
+}
+
+/* CSS for the second checkbox */
+.Checkbox2{
+    margin-left: 110px;
+}
+
+/* CSS for the third checkbox */
+.Checkbox3{
+    margin-left: 75px;
+}
+
+/* CSS for the noPlaceFound functionallity */
+/* .noPlaceFound{
+    
+} */
+
+/* CSS for the all check boxes labels */
+.Label1{
+    padding-left: 10px;
+}
+
+/* CSS for the all Label(title) of radioboxes */
+.Label2{
+    padding-left: 30px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* CSS for the all Labels of radioboxes */
+.Label3{
+    padding-left: 5px;
+}
+
+/* CSS for the radio box */
+.RadioBox{
+    margin-left: 15px;
+    margin-top: none;
+}
+
+/* CSS for the Gym checkbox at accomdations */
+.GymAcc{
+    margin-left: 105px;
+}
+
+/* CSS for the Wifi checkbox at accomdations */
+.WifiAcc{
+    margin-left: 108px;
+}
+
+/* CSS for the Breakfast checkbox at accomdations */
+.Breakf{
+    margin-left: 75px;
+}
+
+/* CSS for the children game center at malls */
+.GameMalls{
+    margin-left: 92px
+}
+
+/* CSS for the Wifi at malls */
+.WifiMalls{
+    margin-left: 107px
+}
+
+/* CSS for the Cinema at malls */
+.CinemaMalls{
+    margin-left: 85px;
+}
+
+/* CSS for the free type at tourisitcs */
+.FreeTour{
+    margin-left: 109px;
+}
+
+/* CSS for the Disabilities friendly type at tourisitcs */
+.DisabilityTour{
+    margin-left: 10px;
+}
+
+/* CSS for the Tour guide type at tourisitcs */
+.TourGuideTour{
+    margin-left: 62px;
+}
+
+/* CSS for the Gym type at extra page */
+.GymExtra{
+    margin-left: 105px;
+}
+
+/* CSS for the Rental car center type at extra page */
+.CarRentalExtra{
+    margin-left: 20px;
+}
+
+/* CSS for music type at event page */
+
+.MusicEvent{
+    margin-left: 100px;
+}
+
+/* CSS for art type at event page */
+.ArtEvent{
+    margin-left: 118px;
+}
+
+/* CSS for food type at event page */
+.FoodEvent{
+    margin-left: 106px;
+}
+
+/* CSS for games type at event page */
+.GamesEvent{
+    margin-left: 93px;
+}
+
+ /* For tablet users */
+@media screen and (min-width: 701px) and (max-width: 1050px) {
+
+    .Filters{
+        margin-right: 5px;
+        gap: 10px;
+        max-width: 180px;
+        min-width: 180px;
+        min-height: 350px;
+        max-height: 350px;
+    }
+    .FilterTitle{
+        padding-left: 45px;
+        padding-top: 5px;
+    }
+    .Checkbox1{
+        margin-left: 65px;
+    }
+    .Checkbox2{
+        margin-left: 76px;
+    }
+    .Checkbox3{
+        margin-left: 41px;
+    }
+    .Label1{
+        padding-left: 5px;
+    }
+    .Label2{
+        padding-left: 25px;
+    }
+    .Label3{
+        padding-left: 2px;
+    }
+    .RadioBox{
+        margin-left: 7px;
+    }
+    .GymAcc{
+        margin-left: 85px;
+    }
+    .WifiAcc{
+        margin-left: 88px;
+    }
+    .Breakf{
+        margin-left: 55px;
+    }
+    .GameMalls{
+        margin-left: 78px
+    } 
+    .WifiMalls{
+        margin-left: 92px
+    }
+    .CinemaMalls{
+        margin-left: 70px;
+    }
+    .FreeTour{
+        margin-left: 109px;
+    }
+    .DisabilityTour{
+        margin-left: 10px;
+    }
+    .TourGuideTour{
+        margin-left: 62px;
+    }
+    .GymExtra{
+        margin-left: 100px;
+    }
+    .CarRentalExtra{
+        margin-left: 15px;
+    }
+    .MusicEvent{
+        margin-left: 80px;
+    }
+    .ArtEvent{
+        margin-left: 98px;
+    }
+    .FoodEvent{
+        margin-left: 86px;
+    }
+    .GamesEvent{
+        margin-left: 73px;
+    }
+}
+
+ /* For mobile users  */
+@media screen and (max-width: 700px) {
+    .Filters{
+        margin-right: 2px;
+        gap: 2px;
+        max-width: 110px;
+        min-width: 110px;
+        min-height: 300px;
+        max-height: 300px;
+        border: 5px solid #51c4d3;
+    }
+    .FilterTitle{
+        padding-left: 20px;
+        padding-top: 2px;
+        font-size: 16px;
+    }
+    .Checkbox1{
+        margin-left: 37px;
+    }
+    .Checkbox2{
+        margin-left: 45px;
+    }
+    .Checkbox3{
+        margin-left: 20px;
+    }
+    .Label1{
+        padding-left: 5px;
+        font-size: 12px;
+    }
+    .Label2{
+        padding-left:3px;
+        font-size: 14px;
+    }
+    .Label3{
+        padding-left: 2px;
+        font-size: 10px;
+    }
+    .RadioBox{
+        margin-left: 35px;
+        margin-top: 10px;
+    }
+    .GymAcc{
+        margin-left: 48px;
+    }
+    .WifiAcc{
+        margin-left: 50px;
+    }
+    .Breakf{
+        margin-left: 25px;
+    }
+    .GameMalls{
+        margin-left: 30px
+    } 
+    .WifiMalls{
+        margin-left: 40px
+    }
+    .CinemaMalls{
+        margin-left: 25px;
+    }
+    .FreeTour{
+        margin-left: 48px;
+    }
+    .DisabilityTour{
+        margin-left: 69px;
+    }
+    .TourGuideTour{
+        margin-left: 14px;
+    }
+    .GymExtra{
+        margin-left: 13px;
+    }
+    .CarRentalExtra{
+        margin-left: 35px;
+    }
+    .MusicEvent{
+        margin-left: 39px;
+    }
+    .ArtEvent{
+        margin-left: 52px;
+    }
+    .FoodEvent{
+        margin-left: 43px;
+    }
+    .GamesEvent{
+        margin-left: 34px;
+    }
+}

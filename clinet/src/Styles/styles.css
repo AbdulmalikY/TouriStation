@@ -1,0 +1,342 @@
+@import "./Card.css";
+@import "./Home.css";
+@import "./Places.css";
+
+
+body  {
+    /* font-family: sans-serif;
+    margin: 0 auto;
+    padding: 25px;
+    max-width: 400px;
+    min-width: 400px; */
+    background-color: #effffb ;
+    /* text-align: center; */
+  }
+
+
+.or-container {
+  align-items: center;
+  color: #ccc;
+  display: flex;
+  margin: 25px 0
+}
+
+.line-separator {
+  background-color: #ccc;
+  flex-grow: 5;
+  height: 1px
+}
+
+.or-label {
+  flex-grow: 1;
+  margin: 0 15px;
+  text-align: center
+}
+
+
+.redirectlink {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.googlebutton{
+  width: 800px;
+  margin: 0 auto;
+
+}
+
+.Imageprofile{
+   margin-top: 20px;
+   border-radius: 20%;
+   width: 75px ;
+   height: 75px;
+   border: 3px;
+}
+
+.Imageprofilenav{
+  margin-left: 10px;
+  border-radius: 50%;
+    width: 50px ;
+    height: 50px;
+  border: 3px;
+}
+
+.Imageprofilereq{
+  border-radius: 50%;
+    width: 5% ;
+  border: 3px;
+  position: absolute;
+}
+
+.profileName{
+  margin: 1% 1%;
+}
+
+.UserEmail{
+}
+
+.UserName{
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-size: 20px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.profile{
+  background-color: #D8E3E7;
+}
+.UserInfoBlock{
+  background-color: #126E82;
+  margin-left: 0px !important;
+  padding-bottom: 15px;
+  border-radius: 20px;
+  margin-bottom: 20px;
+  position: relative;
+  top: 15px;
+  color: white;
+}
+
+.editicon{
+  position: relative;
+  top: 20px;
+right: 19px;
+  cursor: pointer;
+}
+.editicon :hover{
+  color: #132C33
+}
+
+.PrfoileInfo{
+  margin-top: 10px;
+margin-left: 20px;
+width: 230px;
+height: 0%;
+}
+
+.ProfileFav{
+  margin-top: 10px;
+
+  margin-left: 120px;
+  border: 1px solid;
+}
+
+.coverimage{
+  display: block;
+ 
+width: 86.7vw;
+height: 30vw;
+  object-fit: conver;
+}
+
+.profileCard{
+  margin: 20px 20px;
+}
+
+.reviewimg{
+  top: 7px;
+  right: 2px;
+  border-width:  0;
+  grid-area: img;
+  position: relative;
+  margin-right:  5px ;
+  border: 5px solid #fff;
+  height: 170px;
+  width: 170px;
+  border-radius: 25px;
+  width: 75px;
+  height: 75px;
+
+}
+
+
+.placeimg{
+  /* top: 7px;
+  right: 2px; */
+  border-width:  0;
+
+  position: relative;
+  margin-right:  15px ;
+  /* border: 5px solid #fff; */
+  height: 125px;
+  width: 125px;
+  border-radius: 25px;
+
+
+}
+
+@media screen and (max-width:365px) {
+  .placeimg{
+    margin-right: 5px;
+  }
+}
+
+@media screen and (max-width:760px) {
+  .MapIframe{
+    margin-top: 20px;
+  }
+}
+
+.place-info{
+  /* margin-right:0px; */
+  margin-top: 15px;
+}
+
+.favoritePlace{
+  font-size: 80px;
+}
+
+.reviewStar{
+  position: relative;
+  left: 80px;
+  bottom: 25px;
+
+}
+
+
+/* .ReviewPlace{
+
+} */
+
+.ReviewCard{
+  margin: 0;
+}
+.ReviewHeader{
+  margin: 0;
+  padding: 0 20px;
+  height: 90px;
+}
+
+.CardBody{
+  margin: 0;
+  /* height: 136px; */
+  width: 500px;
+}
+
+@media screen and (max-width:600px) {
+  .profileName{
+       margin: 18px 10px;
+      right: 85px;
+  }
+  .ReviewCard{
+    margin: 0;
+    border-radius: 10px;
+
+  }
+  .CardBody{
+    overflow: auto;
+    width: initial;
+  }
+  
+  .PrfoileInfo{
+    margin: 40px 0 ;
+    width: 340px;
+    margin-left: 35px;
+  }
+
+  .profileCard{
+    width: 330px;
+    margin: 20px 2px;
+  }
+  .ProfileFav{
+    margin: 0;
+    margin-left: 35px;
+    
+  }
+  .Imageprofile{
+    width: 75px;
+    height: 75px;
+    margin-top: 20px;
+  }
+  .reviewimg{
+    width: 75px;
+    height: 75px;
+  }
+  .profileName{
+    left: 94px;
+    bottom: 66px;
+    margin: 0;
+    margin-left: 10px;
+    right: 0;
+
+  }
+  .container{
+    padding: 0;
+  }
+  .editicon{
+    width: 32px;
+    height: 32px;
+    top: -89px; 
+    right: 10px;   
+  }
+  .UserName{
+    margin-top: 0 ;
+    margin-bottom: 2px;
+  }
+  .UserInfoBlock{
+    height: 110px;
+  }
+  .UserEmail{
+    font-size: 14px;
+  }
+}
+
+@media screen and (min-width:500px) and (max-width: 1100px) {
+  .profileName{
+       margin: 2% ;
+      right: 85px;
+  }
+  .ReviewCard{
+    margin: 0;
+    border-radius: 10px;
+  }
+  .CardBody{
+    overflow: auto;
+    width: initial;
+  }
+  
+}
+
+/* #requestspart1{
+  width: 33.3%;
+  display: inline-block;
+  float: left;
+  background-color: khaki;
+  position: absolute;
+}
+
+#requestspart2{
+  width: 33.3%;
+  display: inline-block;
+position: relative;  
+right: 20px;
+ background-color: khaki;
+}
+#requestspart3{
+  width: auto;
+  display: none;
+} */
+
+
+.wrapper
+{
+  display: table;
+  width: 100%;
+}
+
+.left {
+  display: table-cell;
+}
+
+/* AdminRequest Section */
+
+.AdminRequestButton{
+  margin: 5px;
+}
+
+.dropdown-left-manual{
+  right: 0;
+  left: auto;
+  padding-left: 1px;
+  padding-right: 1px;
+}

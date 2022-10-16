@@ -1,0 +1,273 @@
+  /* General CSS on all cards */
+  .general-card{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin-top: 20px;
+    padding: 20px 0 0;
+    box-sizing: border-box;
+  }
+  
+  /* Card CSS  */
+  .cards {
+    /* display: grid; */
+    /* grid-template-areas:"img name name status"
+    "img type3 type2 type1"
+    "img desc desc desc"; */
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    min-width: 670px;
+    max-width: 670px;
+    max-height: 160px;
+    min-height: 160px;
+    border-radius: 25px;
+    background-color: #d8e3e7;
+    box-shadow: 0 2px 5px rgb(179, 178, 178);
+    margin: 20px;
+    padding-bottom: 0px;
+    /* to hide any text that go byound the card boundry */
+    overflow: hidden;
+    text-overflow: "...";
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+  }
+
+  /* Card Image CSS */
+  .cards img {
+    position: relative;
+    margin-right: 0px;
+    border: 5px solid #51c4d3;
+    min-height: 160px;
+    max-height: 160px;
+    width: 170px;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    padding-right: none;
+  }
+
+  /* To set the name/stars in row with status/heart */
+.flexRow{
+  display: flex;
+  flex-direction: row;
+}
+  /* To set the name and stars in colume */
+  .flexname{
+    display: flex;
+    flex-direction: column;
+    border-right: #51c4d3 solid 5px;
+    justify-content: flex-start;
+  }
+
+  /* The name CSS */
+  .name {
+    color: black;
+    position: relative;
+    margin-right: 0px;
+    margin-bottom: 5px;
+    margin-top: 10px;
+    padding-left: 10px;
+    font-size: 18px;
+    max-width: 270px;
+    min-width: 270px;
+    min-height: 20px;
+    max-height: 80px;
+    overflow-wrap: break-word;
+  }
+  
+  /* To set padding for the stars  */
+  .ratingPadd{
+    padding-left: 60px;
+  }
+
+  /* CSS for the stars*/
+  .rating{
+    background-color: green;
+    width: 10px;
+  }
+
+  /* To set caloume between the name section, fav section with the types/desc section */
+.flexCal{
+  display: flex;
+  flex-direction: column;
+}
+
+  /* To set the status section in row (status and fav) */
+  .flexfav{
+    display: flex;
+    flex-direction: row;
+    width: 60px;
+  }
+
+  /* status CSS */
+  .status {
+    color: #2d3436;
+    position: relative;
+    margin-right: 40px;
+    margin-left: 40px ;
+    font-size: 20px;
+    margin-bottom: 0px;
+    max-height: 20px;
+    margin-top: 25px;
+    
+  }
+
+  /* Favorite CSS */
+  .favorite{
+    margin-left: 10px ;
+    margin-top: 16px;
+    font-size: 40px;
+    padding: 0px;
+    border: none;
+    color:gray;
+  }
+
+  
+  
+  /* To set in colume between the types and desc */
+.flexTypes{
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+  /* Types CSS */
+  .Type3{
+    font-size: 16px;
+    margin-bottom: 0px;
+    padding-left: 150px;
+    width:500px;
+    border-top: #51c4d3 solid 5px;
+    padding-top: 5px;
+  }
+  
+  /* Desc CSS */
+  .info {
+    margin-bottom: 5px;
+    font-size: 14px;
+    min-width:500px;
+    max-width:500px;
+    align-content: stretch;
+    align-items: flex-start;
+    padding-left: 10px;
+    word-break:break-all;
+    overflow: hidden;
+    text-overflow: "...";
+    /* white-space:nowrap; */
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+  }
+
+
+
+   /* For tablet users */
+@media screen and (min-width: 701px) and (max-width: 1050px) {
+  .general-card{
+    margin: 0px;
+  }
+  
+  .cards {
+      min-width: 480px;
+      max-width: 480px;
+  }
+
+  .cards img {
+    width: 200px;
+    padding-right: 80px;
+  }
+  .name{
+    max-width: 200px;
+    min-width: 200px;
+    font-size: 14px;
+  }
+  .ratingPadd{
+    padding-left: 25px;
+    font-size: 10px!important; 
+  }
+  .star{
+    font-size: 10px !important; 
+  }
+  .flexfav{
+    width: 35px;
+  }
+  .status{
+    font-size: 14px;
+    margin-right: 0px;
+    margin-left: 5px;
+  }
+  .favorite{
+    font-size: 30px;
+  }
+  .flexTypes{
+    gap: 3px;
+  }
+  .Type3{
+    width: 316px;
+    font-size: 14px;
+    padding-left: 45px;
+    white-space: pre-wrap;
+  }
+  .info{
+    font-size: 14px;
+    width: 300px;
+  }
+}
+
+ /* For mobile users  */
+@media screen and (max-width: 700px) {
+  .general-card{
+    margin: 0px;
+    margin-left: -10px;
+  }
+  .cards {
+    min-width: 240px;
+    max-width: 240px;
+    min-height: 130px;
+    max-height: 130px;
+}
+
+.cards img {
+  width: 100px;
+  min-height: 130px;
+  max-height: 130px;
+  padding-right: 7px;
+}
+.name{
+  max-width: 100px;
+  min-width: 100px;
+  font-size: 12px;
+}
+.ratingPadd{
+  padding-left: 7px;
+  font-size: 10px;
+}
+.flexfav{
+  width: 17px;
+  flex-direction: column;
+}
+.status{
+  font-size: 12px;
+  margin-right: 0px;
+  margin-left: 2px;
+  margin-top: 10px;
+}
+.favorite{
+  font-size: 20px;
+}
+.flexTypes{
+  gap: 2px;
+}
+.Type3{
+width: 150px;
+  font-size: 10px;
+  padding-left: 0px;
+  white-space: pre-wrap;
+}
+.info{
+  font-size: 12px;
+  width: 150px;
+  padding-top: 0px;
+  padding-left: 5px;
+  white-space:nowrap;
+}
+}

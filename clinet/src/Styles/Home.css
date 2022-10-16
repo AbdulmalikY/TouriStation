@@ -1,0 +1,279 @@
+p {
+    font-family: 'Ubuntu', sans-serif;
+    color: #8f8f8f;
+  }
+  
+  body {
+    font-family: "Montserrat";
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-family: "Montserrat-Bold";
+  }
+  
+  h2 {
+    font-size: 3rem;
+    line-height: 1.5;
+  }
+  
+  h3 {
+    font-size: 1.5rem;
+  }
+  
+  /*Heading*/
+  .big-heading {
+    font-family: "Montserrat-Black";
+    font-size: 3.5rem;
+    line-height: 1.5;
+  }
+  
+  .container-fluid {
+    padding: 3% 15% 7%;
+  }
+  
+  #title {
+    background-color: #58D68D;
+    color: white;
+  }
+  
+  /*navbar*/
+  .navbar {
+    padding: 0 0 4.5rem;
+  }
+  
+  .navbar-brand {
+    font-family: "Ubuntu";
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  
+  .nav-item {
+    padding: 0 18px;
+  }
+  
+  .nav-link {
+    font-size: 1.2rem;
+    font-family: "Montserrat-light";
+  }
+  
+  /*Downlowd buttons*/
+  .downlowd-button {
+    margin: 5% 3% 5% 0;
+  }
+  
+  /*Title image*/
+  .titleImage {
+    width: 10%;
+
+    transform: rotate(25deg);
+    position: absolute;
+    /* right: 30%; */
+    /* left: 20px; */
+    /* aspectRatio: 2.5; */
+  }
+
+.sectionimg{
+  /* transform-origin: 0 0; */
+  transition: all 1s ease;
+  width: 420px;
+}
+  .sectionimg:hover{
+    transform: scale(1.1, 1.1);
+  }
+  
+  /*features*/
+  .features {
+    padding: 7% 5%;
+    background-color: #fff;
+    position: relative;
+  }
+  .Mainsection{
+    padding: 7% 4%;
+    background-color: #d8e3e7;
+    position: relative;
+    justify-content: center; 
+  }
+  
+  .feature-box {
+    text-align: center;
+    padding: 5%;
+  }
+  
+  .section-box {
+    margin: 1.93% ;
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+  .icon {
+    color: #ef8172;
+    margin-bottom: 1rem;
+  }
+  
+  .icon:hover {
+    color: #ff4c68;
+  }
+  
+  /*Testmoniles*/
+  #testimonials {
+    text-align: center;
+    background-color: #ef8172;
+    color: #fff;
+    background-color: #126e82;
+  }
+  
+  .testimonials-img {
+    width: 10%;
+    margin: 20px;
+  }
+  
+  #press {
+    background-color: #126e82;
+    text-align: center;
+  }
+  
+  .press-logo {
+    width: 8%;
+    margin: 20px 20px 50px;
+  }
+  
+  .carousel-item {
+    padding: 7% 15%;
+  }
+  
+  /*pricing*/
+  #pricing {
+    padding: 100px;
+    text-align: center;
+    background-color: #51c4d3;
+  }
+
+  #ThingsToDo {
+    padding: 100px;
+    background-color: #d8e3e7;
+  }
+
+  #Upcoming {
+    padding: 100px;
+    background-color: #d8e3e7;
+  }
+
+  @media (max-width: 650px)  {
+    #ThingsToDo {
+      padding: 0px;
+    }
+  
+    #Upcoming {
+      padding: 0px;
+    }
+    /* .sectionimg{
+      width: 360px;
+    } */
+
+
+  }  
+  
+  .pricing-column {
+    padding: 3% 2%;
+  }
+  
+  #cta {
+    background-color: #ff4c68;
+    text-align: center;
+    padding: 7% 15%;
+    color: white;
+  }
+  
+  .cta-heading {
+    font-family: "Montserrat-Black";
+    font-size: 3.5rem;
+    line-height: 1.5;
+    font-weight: bold;
+  }
+  
+  /*footer*/
+  #footer {
+    padding: 5% 15%;
+    text-align: center; 
+    background-color: #132c33;
+  }
+  
+  .social-icon {
+    margin: 4px 14px 15px;
+    font-size: 25px;
+    color: #8f8f8f;
+    cursor: pointer;
+  }
+  
+  @media (max-width: 1128px)  {
+    #title {
+      text-align: center;
+    }
+    .Mainsection{
+      padding: 40px;
+      padding-left: 0;
+    }
+    /* .sectionimg{
+      width: 360px;
+    } */
+
+
+  }
+
+/* New */
+
+  
+/* @media screen and (max-width: 800){ 
+.Mainsection{
+  padding: 40px;
+}
+
+
+} */
+
+.SectionImg{
+  position: relative;
+  text-align: center;
+  color: white;
+}
+.centeredText {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 1.5875rem;
+font-family: NotoKufiArabic, Arial, sans-serif;
+line-height: 1.6875rem;
+letter-spacing: 0;
+}
+
+.TouriIcons
+{
+  width: 150px;
+  height: 180px;
+}
+
+.noPlaceFoundSearch{
+  margin-top: 5%;
+  margin-left: 20%;
+  color: #ef8172;
+}
+
+
+.saudiflag{
+  margin-bottom: 4%;
+}
+.HomeCard{
+  margin: 2%;
+
+  /* text-overflow: clip; */
+}
+
+.HomeCardImage{
+  max-height: 196.5px;
+}
+
+/* .navbarSections{
+  color: white !important
+} */
+
