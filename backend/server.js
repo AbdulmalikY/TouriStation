@@ -199,7 +199,7 @@ app.get("/logout", (req, res) => {
   res.redirect("http://localhost:3001/");
 });
 
-const PORT = process.env.PORT || 3050;
+const PORT = process.env.PORT || 3000;
 
 if (process.env.NODE_ENV === "production") {
   app.use(express.static("../clinet"));
