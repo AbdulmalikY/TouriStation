@@ -46,7 +46,6 @@ router.route("/").get((req, res) =>{
 
 
 router.route("/add").post((req, res) =>{
-  // router.post('/register', upload.single('icon'), async function(req, res) {
 
   const CategoryName = req.body.CategoryName;
   console.log(req.body.CategoryName)

@@ -41,19 +41,19 @@ function getcatogryid(catogryvalue){
             break;
 
         case "accommodations":
-            return "60a56eba21552d6f886a2e97";
+            return "6344955af6a8d62874e7349a";
             break;
 
         case "malls":
-            return "60a56efe21552d6f886a2e98";
+            return "63449565f6a8d62874e7349b";
             break;
     
         case "touristic":
-            return "60a56f3821552d6f886a2e99";
+            return "6344956ff6a8d62874e7349c";
             break;
         
         case "extraservices":
-            return "60a56f6a21552d6f886a2e9a";
+            return "63449577f6a8d62874e7349d";
             break;
 
             default: return 0
