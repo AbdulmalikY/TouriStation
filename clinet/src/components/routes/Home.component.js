@@ -122,7 +122,7 @@ function createEventCardThings(props) {
         <img
           class="img-fluid HomeCardImage"
           alt="100%x280"
-          src={`http://localhost:3000/${props.icon}`}
+          src={`http://localhost:3000/images/${props.icon}`}
           onClick={(event) => (window.location = `/Event/${props.Name}`)}
         />
         <div class="card-body">
@@ -155,7 +155,7 @@ function createEventCardUpdoming(props) {
         <img
           class="img-fluid HomeCardImage"
           alt="100%x280"
-          src={`http://localhost:3000/${props.icon}`}
+          src={`http://localhost:3000/images/${props.icon}`}
           onClick={(event) => (window.location = `/Event/${props.Name}`)}
         />
         <div class="card-body">

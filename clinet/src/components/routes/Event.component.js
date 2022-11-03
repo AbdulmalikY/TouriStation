@@ -114,7 +114,7 @@ function PlaceImages(props) {
 
   return (
           <div class="card" >
-              <img class="" alt="100%x280" src={`http://localhost:3000/${props}`} style={{width: "358px", height: "200px"}}/>
+              <img class="" alt="100%x280" src={`http://localhost:3000/images/${props}`} style={{width: "358px", height: "200px"}}/>
           </div>
   );
 }
@@ -319,7 +319,7 @@ await axios.post('http://localhost:3000/reviews/add', user,{
               <div class="container py-3">
               <div class="row">
               <div class="col-md-8 col-sm-6 col-lg-10 row">
-              <img className="placeimg" src={`http://localhost:3000/${this.state.Image}`}  />
+              <img className="placeimg" src={`http://localhost:3000/images/${this.state.Image}`}  />
               <h1 class="display-5 fw-bold place-info">{this.state.Name}
               <ReactStars 
             value={this.state.Rating}

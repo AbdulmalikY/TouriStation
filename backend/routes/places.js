@@ -133,7 +133,7 @@ console.log("test")
   if (req.files[0] == undefined) {
     icon = "uploads/DefaultIcon.jpg";
   } else {
-    icon = req.files[0].path;
+    icon = req.files[0].filename;
     photos = [];
     araycount(photos, req.files);
   }
@@ -211,7 +211,7 @@ console.log("test")
 
       newPlace
         .save()
-        .then(() => res.json("saved"))
+        // .then(() => res.json("saved"))
         .then((result) => {
           return holder.Type.findById(holder.id);
         })

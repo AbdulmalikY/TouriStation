@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import axios from 'axios';
 import App from "../../App";
-import Cards from "../../EventCards";
+import Cards from "../../Card";
 
 function CreateEventCards(extraservices) {
 

@@ -22,7 +22,7 @@ const placeSchema = new Schema({
     type: String,
     maxlength: 15,
     minlength: 8,
-    unique: true,
+    unique: false,
   },
   Website:
   {

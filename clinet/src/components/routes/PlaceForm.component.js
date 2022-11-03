@@ -327,7 +327,7 @@ export default class CreatePlace extends Component {
 
 
         // iconss.push(this.state.PlacePhotos)
-        if(this.state.Google == ''){
+        if(this.state.Google === ''){
             this.setState({Google: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d330733.4349089228!2d46.131339660269504!3d24.84523713267119!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e2f03890d489399%3A0xba974d1c98e79fd5!2sRiyadh%2011564!5e0!3m2!1sen!2ssa!4v1622847621291!5m2!1sen!2ssa"})
         }
 

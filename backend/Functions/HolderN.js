@@ -69,10 +69,12 @@ function araycount(Aray, elemnts){
 
 //Used to conunt num of images in req in events & places
 
-  for (var i = 1; i < elemnts.length; i++) {
+  for (var i = 0; i < elemnts.length; i++) {
    
     const result = uploadFile(elemnts[i])
-    Aray[i-1] = elemnts[i].filename;
+    if(i !== 0){
+      Aray[i-1] = elemnts[i].filename;
+    }
   }
 
   return Aray
